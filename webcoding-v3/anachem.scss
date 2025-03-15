@@ -9,14 +9,15 @@ $headingText-colour: white;
     flex-shrink: 1;
     justify-content: left, space-between;
     flex-direction: column;
-    h2 {
+    padding:20px;
+    h1 {
         color: $headingText-colour;
         text-align: center;
-        
     }
-    button{
-        width:150px;
-        margin-left: 45%;
+    div{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
 .content {
@@ -27,12 +28,10 @@ $headingText-colour: white;
     justify-content: center;
     p {
         text-align: center;
-        
+        max-width: 300px;
     }
 }
 
-div{
-    color:black;
-}
+
 
 
