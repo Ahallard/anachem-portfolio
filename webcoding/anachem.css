@@ -1,0 +1,39 @@
+.header {
+  background-color: grey;
+  align-content: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: left, space-between;
+  flex-direction: column;
+  padding: 20px;
+}
+.header h1 {
+  color: white;
+  text-align: center;
+}
+.header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.content p {
+  text-align: center;
+  margin: 30px;
+}
+.content img {
+  max-width: 400px;
+  max-height: 400px;
+}
+.content section {
+  background-color: darkgrey;
+  width: 20px;
+}/*# sourceMappingURL=anachem.css.map */
