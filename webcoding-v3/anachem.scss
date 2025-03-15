@@ -1,0 +1,38 @@
+$header-colour: grey;
+$headingText-colour: white;
+
+.header {
+    background-color: $header-colour;
+    align-content: center;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: left, space-between;
+    flex-direction: column;
+    h2 {
+        color: $headingText-colour;
+        text-align: center;
+        
+    }
+    button{
+        width:150px;
+        margin-left: 45%;
+    }
+}
+.content {
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: center;
+    p {
+        text-align: center;
+        
+    }
+}
+
+div{
+    color:black;
+}
+
+

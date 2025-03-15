@@ -1,0 +1,32 @@
+.header {
+  background-color: grey;
+  align-content: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: left, space-between;
+  flex-direction: column;
+}
+.header h2 {
+  color: white;
+  text-align: center;
+}
+.header button {
+  width: 150px;
+  margin-left: 45%;
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.content p {
+  text-align: center;
+}
+
+div {
+  color: black;
+}/*# sourceMappingURL=anachem.css.map */
