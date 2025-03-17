@@ -1,5 +1,5 @@
 .header {
-  background-color: grey;
+  background-color: yellow;
   align-content: center;
   display: flex;
   flex-grow: 1;
@@ -9,8 +9,11 @@
   padding: 20px;
 }
 .header h1 {
-  color: white;
+  color: black;
   text-align: center;
+  -webkit-text-size-adjust: 30px;
+     -moz-text-size-adjust: 30px;
+          text-size-adjust: 30px;
 }
 .header div {
   display: flex;
@@ -24,16 +27,33 @@
   flex-grow: 1;
   flex-shrink: 1;
   justify-content: center;
+  flex-direction: row;
 }
 .content p {
   text-align: center;
   margin: 30px;
+  max-width: 300px;
 }
 .content img {
   max-width: 400px;
-  max-height: 400px;
+  max-height: 200px;
+  padding: 15px;
 }
-.content section {
-  background-color: darkgrey;
-  width: 20px;
+
+@media (max-width: 480px) {
+  .header div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .content img {
+    max-width: 200px;
+    max-height: 100px;
+    padding: 5px;
+  }
 }/*# sourceMappingURL=anachem.css.map */
